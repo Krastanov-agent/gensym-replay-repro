@@ -1,0 +1,6 @@
+name = "GensymReplayRepro"
+uuid = "3521443a-cbc2-4740-9509-3032e0cd4a6b"
+version = "0.1.0"
+
+[compat]
+julia = "1.12"
