@@ -11,6 +11,7 @@ turns the second `only(methods(...))` into a failure.
 """
 macro define_checked_helper(arg)
     helper = gensym(:checked_helper)
+    println("define_checked_helper gensym = ", helper)
     func_expr = quote
         function $helper($arg)
             nothing
